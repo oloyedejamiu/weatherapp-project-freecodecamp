@@ -1,19 +1,25 @@
 body {
-  background-color: black;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    font-size:14px;
+    line-height:24px;    
+}
+
+.black-background {
+   background-color: rgb(0,0,0);
 }
 
 #weather-title {
-  color: white;
-  font-size: 70px;
+  color: #fff;
+  font-size: 75px;
 }
 
 ul {
   list-style-type: none;
- color: white;
+  color: #fff;
   padding-top: 70px;
 }
 
 li {
-  font-size: 30px;
-  
+  font-size: 40px;  
 }

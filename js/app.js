@@ -2,10 +2,10 @@ $(document).ready(function (){
   var long;
   var lat;
   if(navigator.geolocation){
-	navigator.geolocation.getCurrentPosition(function (position){
+  navigator.geolocation.getCurrentPosition(function (position){
     lat = position.coords.latitude;
     long = position.coords.longitude;
-		//$("#data").html("latitude: " + lat + "<br>longitude: " + long);
+    //$("#data").html("latitude: " + lat + "<br>longitude: " + long);
  
   
 var api = 'http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&units=metric&appid=89914b729b544c7a1915d9c4a15d6e25';

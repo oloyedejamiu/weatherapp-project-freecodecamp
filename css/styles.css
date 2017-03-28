@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+#weather-title {
+  color: white;
+  font-size: 70px;
+}
+
+ul {
+  list-style-type: none;
+ color: white;
+  padding-top: 70px;
+}
+
+li {
+  font-size: 30px;
+  
+}
